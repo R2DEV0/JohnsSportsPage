@@ -1,0 +1,83 @@
+.logdiv{
+    background-color: rgba(98, 148, 89, 0.856);
+    border-radius: 5px;
+    margin-top: 7%;
+}
+
+body{
+    background-image: url('../images/stadium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-position: center;
+    font-family: 'Open Sans', Semi-bold 600, italic;
+    /* font-family: 'Faster One', cursive; */
+    /* font-family: 'Geo', sans-serif; */
+}
+
+.message{
+    font-size: 20px;
+    text-align: center;
+}
+
+.message.tags{
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+.admin{
+    position: fixed;
+    right: 10px;
+    color: white;
+    background-color: orangered;
+}
+
+.center{
+    float: none;
+    margin: 0 auto;
+}
+
+a{
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 100px){
+    .page-footer{
+        color: whitesmoke;
+        margin-top: 50%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .page-footer{
+        color: whitesmoke;
+        margin-top: 50%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .page-footer{
+        text-align: center;
+        margin-top: 50%;
+        color: whitesmoke;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .page-footer{
+        bottom: 0;
+        left: 0;
+        color: black;
+        right: 0;
+        position: absolute;
+        background-color: rgba(245, 245, 245, 0.801);
+    }
+}

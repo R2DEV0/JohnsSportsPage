@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(196, 206, 194, 0.623); */
+}
+
+.table{
+    width: 100%;
+    color:whitesmoke;
+}
+
+@media only screen and (min-width: 100px){
+    .page-footer{
+        color: black;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .page-footer{
+        color:black;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .page-footer{
+        text-align: center;
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .page-footer{
+        bottom: 0;
+        left: 0;
+        color: black;
+        right: 0;
+        position: absolute;
+    }
+}
